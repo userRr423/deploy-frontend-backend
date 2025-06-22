@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: #808080;
 }
 @keyframes fadein {
   from { opacity: 0; }
