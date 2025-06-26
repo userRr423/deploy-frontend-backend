@@ -218,22 +218,6 @@ useEffect(() => {
     <div className="app-container">
       <h1>Календарь задач {username}</h1>
 
-      <h1>Список Пользователей {username}  {id}</h1>
-      <ul>
-        {users.filter(user => user.username === selectedUser).map((user) => (
-        <li key={user.id}>
-          {user.username} id {user.id}
-        </li>
-      ))}
-
-      </ul>
-
-      <ul>
-                {items.map((item) => (
-                    <li key={item.id}>{item.task}</li> // замените item.name на нужное поле
-                ))}
-            </ul>
-
 
       <div className="input-container">
         <select
