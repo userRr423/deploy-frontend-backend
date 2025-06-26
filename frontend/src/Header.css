@@ -1,0 +1,35 @@
+/* Header.css */
+
+header {
+    background-color: #5dc58c; /* Цвет фона заголовка */
+    padding: 10px; /* Отступы в заголовке */
+    text-align: right; /* Центрирование текста */
+    color: white; /* Цвет текста */
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+nav {
+    margin-top: 15px; /* Отступ сверху от заголовка */
+}
+
+nav ul {
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем внутренние отступы */
+}
+
+nav ul li {
+    display: inline; /* Сделать элементы в строку */
+    margin: 0 15px; /* Отступы между элементами */
+}
+
+nav a {
+    color: white; /* Цвет текста ссылок */
+    text-decoration: none; /* Убираем подчеркивание */
+    font-weight: bold; /* Жирный шрифт для ссылок */
+    transition: color 0.3s; /* Плавный переход цвета */
+}
+
+nav a:hover {
+    color: #d1e7fd; /* Цвет при наведении на ссылку */
+}

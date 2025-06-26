@@ -1,0 +1,43 @@
+/* Login.css */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Заполнение всей высоты экрана */
+    background-color: #f5f5f5; /* Светлый фон */
+}
+
+.login-form {
+    background-color: white; /* Белый фон для формы */
+    padding: 30px;
+    border-radius: 8px; /* Закругленные углы */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень под формой */
+    width: 300px; /* Ширина формы */
+}
+
+.login-form h2 {
+    margin-bottom: 20px; /* Отступ снизу */
+    text-align: center; /* Выравнивание по центру */
+}
+
+.login-form input {
+    width: 100%; /* Полная ширина */
+    margin-bottom: 15px; /* Отступ снизу */
+    padding: 10px; /* Внутренние отступы */
+    border: 1px solid #ccc; /* Рамка */
+    border-radius: 4px; /* Закругленные углы */
+}
+
+.login-form button {
+    width: 100%; /* Полная ширина */
+    padding: 10px; /* Внутренние отступы */
+    border: none;
+    background-color: #007bff; /* Цвет кнопки */
+    color: white; /* Цвет текста */
+    border-radius: 4px; /* Закругленные углы кнопки */
+    cursor: pointer; /* Указатель для курсора */
+}
+
+.login-form button:hover {
+    background-color: #0056b3; /* Темный цвет при наведении */
+}
