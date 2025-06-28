@@ -5,5 +5,5 @@ docker compose up --build
 ```
 
 <p align="center">
-<img src="https://github.com/userRr423/deploy-frontend-backend-To-do-list/blob/main/Todo_list.png?raw=true" alt="Описание изображения" width="800" height="500"/>
+<img src="https://github.com/userRr423/deploy-frontend-backend-To-do-list/blob/main/Todo_list.png?raw=true" alt="Описание изображения" width="900" height="500"/>
 </p>
